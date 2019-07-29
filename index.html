@@ -68,7 +68,7 @@
       <div class="col-12 narrow text-center mt-0">
         <h3 class="heading">About Me</h3>
         <span class="heading-underline"></span>
-        <p>
+        <p style="font-size: 18px">
           In one sentence. I wake up each morning with one goal and one goal
           alone.
         </p>
@@ -77,18 +77,11 @@
           the end of the year ? hmm, maybe..."
         </p>
         <hr class="mb-5 pb-1 bg-success w-25" />
-        <h3 class="heading mb-1">What makes me different ?</h3>
+        <h3 class="heading mb-3">What makes me different ?</h3>
         <h5 class="h5 mb-3">I speak both "business" and "tech"</h5>
-        <p class="lead">
-          With both a tech and business background I am able to effectively 
-          communicate with both technical and non technical stakeholders within
-          an organization.
-        </p>
-        <p class="lead mt-1">
-          On the otherhand programming brings challenges, joys and thrills I
-          havent had with the business side.
-          There is something about wanting to pull your hair out and screaming at a screen that does it for me.
-          I compare it to being on a roller coaster only difference you never get off, you just learn to enjoy the highs as much as the lows.
+        <p class="lead m-3">
+          Simply put, I have a certified in both Business Management and Computer Programming,
+          which gives me the ability to effective communicate with both tech and non-tech individuals.
         </p>
       </div>
     </div>
@@ -114,7 +107,7 @@
               <i class="fas fa-code fa-3x"></i>
             </div>
             <p class="lead">
-              <ul style="list-style-type: none; font-size: 1.4rem">
+              <ul class="skills_list_items">
                 <li>Javascript</li>
                 <li>Java</li>
                 <li>PHP</li>
@@ -129,7 +122,7 @@
               <i class="fas fa-globe fa-3x"></i>
             </div>
             <p class="lead">
-                <ul style="list-style-type: none; font-size: 1.4rem">
+                <ul class="skills_list_items">
                   <li>HTML5</li>
                   <li>CSS3</li>
                   <li>ASP.NET</li>
@@ -140,11 +133,11 @@
           </div>
           <div class="col-md-4">
             <h3>Other</h3>
-            <div class="feature">
-              <i class="fas fa-laptop fa-3x"></i>
+            <div class="feature text-center">
+              <i class="fas fa-laptop fa-3x text-center"></i>
             </div>
-            <p class="lead">
-                <ul style="list-style-type: none; font-size: 1.4rem">
+            <p class="lead text-center">
+                <ul class="skills_list_items">
                   <li>React.js</li>
                   <li>React Native</li>
                   <li>Node.js</li>
@@ -170,7 +163,25 @@
           <h3 class="heading">Projects</h3>
           <div class="heading-underline"></div>
           <div class="row">
-              <div class="col-md-6 clients">
+            <div class="col-md-6 projects">
+                <div class="row">
+                  <div class="col-md-4">
+                    <!-- image section -->
+                    <a href="https://burger-app-react-js.firebaseapp.com/" target="_blank"><img src="img/burger.png" alt="burger " /></a>
+                  </div>
+                  <div class="col-md-8">
+                    <blockquote>
+                      <i class="fas fa-quote-left"></i>
+                      Single Page React Application allowing user to create customized burger/ sandwich. Interacted with Google Firebase for asynchronous fetching and storing of  
+                      application data and authentication of users.
+                      <hr class="projects-hr" />
+                      <cite>&#8212;<strong>Burger Artisan:</strong> React.JS | Redux | Redux-Thunk | Firebase</cite>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 projects">
                   <div class="row">
                     <div class="col-md-4">
                       <!-- image section -->
@@ -180,14 +191,14 @@
                       <blockquote>
                         <i class="fas fa-quote-left"></i>
                           Lyric Finder- mini application created using react.js integrated with 3rd party api. Used to search for song lyrics
-                        <hr class="clients-hr" />
-                        <cite>&#8212; LyricFinder, React</cite>
+                        <hr class="projects-hr" />
+                        <cite>&#8212; <strong>React.JS:</strong> React</cite>
                       </blockquote>
                     </div>
                   </div>
                 </div>
 
-            <div class="col-md-6 clients">
+            <div class="col-md-6 projects">
               <div class="row">
                 <div class="col-md-4">
                   <!-- image section -->
@@ -197,13 +208,13 @@
                   <blockquote>
                     <i class="fas fa-quote-left"></i>
                     This is a social media application allowing for posting, comments and uploads.
-                    <hr class="clients-hr" />
-                    <cite>&#8212; ZimVoice, PHP + Laravel + MySQL</cite>
+                    <hr class="projects-hr" />
+                    <cite>&#8212; <strong>zimvoice:</strong> PHP | Laravel | MySQL</cite>
                   </blockquote>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 clients">
+            <div class="col-md-6 projects">
               <div class="row">
                 <div class="col-md-4">
                   <!-- image section -->
@@ -214,31 +225,15 @@
                     <i class="fas fa-quote-left"></i>
                     Web application created with pure PHP, allowing for users to keep track of their habits. 
                     User is also able to subscribe and follow other users, as they keep track of each other's progress
-                    <hr class="clients-hr" />
-                    <cite>&#8212; Firecharge, PHP + MySQL</cite>
+                    <hr class="projects-hr" />
+                    <cite>&#8212; <strong>Firecharge:</strong> PHP | MySQL</cite>
                   </blockquote>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 clients">
-                <div class="row">
-                  <div class="col-md-4">
-                    <!-- image section -->
-                    <a href="https://whatsapp-v2.herokuapp.com/" target="_blank"><img src="img/chatapp.png" alt="image1" /></a>
-                  </div>
-                  <div class="col-md-8">
-                    <blockquote>
-                      <i class="fas fa-quote-left"></i>
-                      Instant chat Application using MERN stack
-                      <hr class="clients-hr" />
-                      <cite>&#8212;Mongo, Express, Node.js, React & Socket.io</cite>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
             <!-- project 4 -->
-            <div class="col-md-6 clients">
+            <div class="col-md-6 projects">
                 <div class="row">
                   <div class="col-md-4">
                     <!-- image section -->
@@ -249,8 +244,8 @@
                       <i class="fas fa-quote-left"></i>
                         Cross-platform application created using React Native. Application models uber's business model
                         allowing for location based service provision
-                      <hr class="clients-hr" />
-                      <cite>&#8212; DownTime, React Native, Firebase, AuthO, Redux, </cite>
+                      <hr class="projects-hr" />
+                      <cite>&#8212; <strong>DownTime:</strong> React Native | Firebase | AuthO | Redux </cite>
                     </blockquote>
                   </div>
                 </div>
