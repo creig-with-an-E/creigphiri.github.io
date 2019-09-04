@@ -8,6 +8,9 @@ body {
   color: #505962;
 }
 
+a {
+  color: #11aabb
+}
 .offset :before {
   display: block;
   content:"";
