@@ -194,6 +194,12 @@ blockquote svg.svg-inline--fa{
   margin: 1rem
 }
 
+blockquote > strong {
+  color: #1EBBA3
+}
+blockquote span {
+  font-weight: bold
+}
 .projects-hr {
   border-top: .2rem solid #1EBBA3
 }
