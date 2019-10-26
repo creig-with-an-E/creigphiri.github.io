@@ -5,6 +5,7 @@ body {
   overflow-x: hidden; /* text stays within the window*/
   font-family: 'Oswald', sans-serif;
   color: #505962;
+  background: #fffffa
 }
 
 a {
